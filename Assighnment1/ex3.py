@@ -93,7 +93,7 @@ plt.savefig("Ex3_quadratic_fit.png", dpi=150)
 plt.show()
 
 
-print("=== Quadratic Fit: g(x) = b + m*x + q*x^2 ===")
+print(" Quadratic Fit: g(x) = b + m*x + q*x^2")
 print(f"b       = {b_best:.4f} ± {sigma_b:.4f} (var={var_b:.4f})")
 print(f"m       = {m_best:.4f} ± {sigma_m:.4f} (var={var_m:.4f})")
 print(f"q       = {q_best:.4f} ± {sigma_q:.4f} (var={var_q:.4f})")
